@@ -1,7 +1,7 @@
 project "glm"
     kind "StaticLib"
     language "C++"
-    cppdialect "C++17"
+    cppdialect "C++20"
     staticruntime "off"
 
     targetdir("../bin/" .. OutputDir .. "/%{prj.name}")
